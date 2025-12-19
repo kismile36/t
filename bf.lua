@@ -7,28 +7,27 @@ end
 if setfpscap then
     setfpscap(1000000)
     game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "dsc.gg/dyhub",
-        Text = "FPS Unlocked!",
+        Title = "TCHUB",
+        Text = "帧率已解锁!",
         Duration = 5,
-        Button1 = "Okay"
+        Button1 = "好的"
     })
     warn("FPS Unlocked!")
 else
     game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "dsc.gg/dyhub",
-        Text = "Your exploit does not support setfpscap.",
+        Title = "TCHUB",
+        Text = "你的注入器不支持",
         Duration = 5,
-        Button1 = "Okay"
+        Button1 = "好的"
     })
     warn("Your exploit does not support setfpscap.")
 end
 
 local WindUI = (loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua")))();
 local Window = WindUI:CreateWindow({
-    Title = "DYHUB",
-    Icon = "rbxassetid://104487529937663",
-    Author = "Blox Fruit | Premium Version",
-    Folder = "DYHUB_BF",
+    Title = "TCHUB",
+    Author = "Blox Fruit",
+    Folder = "BY　KISMILE",
     Size = UDim2.fromOffset(550, 300),
     Transparent = true,
     Theme = "Dark",
@@ -42,7 +41,7 @@ local Window = WindUI:CreateWindow({
     },
 });
 Window:EditOpenButton({
-    Title = "DYHUB - Open",
+    Title = "TCHUB - Open",
     Icon = "monitor",
     CornerRadius = UDim.new(0, 6),
     StrokeThickness = 2,
