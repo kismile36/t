@@ -50,45 +50,45 @@ Window:EditOpenButton({
 });
 local Tabs = {
     InfoTab = Window:Tab({
-        Title = "Information",
+        Title = "信息",
         Icon = "info",
         Desc = "Info Section"
     }),
     MainDivider = Window:Divider(),
     MainTab = Window:Tab({
-        Title = "Farming",
+        Title = "自动",
         Icon = "rocket",
         Desc = "Main Section"
     }),
     OthersTab = Window:Tab({
-        Title = "Others",
+        Title = "其他",
         Icon = "crown",
         Desc = "Farming Section"
     }),
     ItemsTab = Window:Tab({
-        Title = "Items",
+        Title = "项目",
         Icon = "box",
         Desc = "Items Section"
     }),
     SettingsTab = Window:Tab({
-        Title = "Settings",
+        Title = "设置",
         Icon = "settings",
         Desc = "Settings Section"
     }),
     PlayerDivider = Window:Divider(),
     LocalPlayerTab = Window:Tab({
-        Title = "Player",
+        Title = "玩家",
         Icon = "user",
         Desc = "Local Player Section"
     }),
     StatsTab = Window:Tab({
-        Title = "Stats",
+        Title = "统计",
         Icon = "sliders-horizontal",
         Desc = "Stats Section"
     }),
     SeaDivider = Window:Divider(),
     SeaEventTab = Window:Tab({
-        Title = "Sea Event",
+        Title = "海洋事件",
         Icon = "anchor",
         Desc = "Sea Event Section"
     }),
