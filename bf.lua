@@ -50,13 +50,13 @@ Window:EditOpenButton({
 });
 local Tabs = {
     InfoTab = Window:Tab({
-        Title = "信息",
+        Title = "自动",
         Icon = "info",
         Desc = "Info Section"
     }),
     MainDivider = Window:Divider(),
     MainTab = Window:Tab({
-        Title = "自动",
+        Title = "项目",
         Icon = "rocket",
         Desc = "Main Section"
     }),
@@ -93,65 +93,65 @@ local Tabs = {
         Desc = "Sea Event Section"
     }),
     SeaStackTab = Window:Tab({
-        Title = "Sea Stack",
+        Title = "海上堆叠",
         Icon = "waves",
         Desc = "Sea Stack Section"
     }),
     SeaSettingsTab = Window:Tab({
-        Title = "Sea Settings",
+        Title = "海上设置",
         Icon = "cog",
         Desc = "Sea Settings Section"
     }),
     AutoDivider = Window:Divider(),
     DragonDojoTab = Window:Tab({
-        Title = "Dragon Dojo",
+        Title = "龙道场",
         Icon = "shield",
         Desc = "Dragon Dojo Section"
     }),
     RaceTab = Window:Tab({
-        Title = "Race V4",
+        Title = "种族V4",
         Icon = "bot",
         Desc = "Race Section"
     }),
     CombatDivider = Window:Divider(),
     CombatTab = Window:Tab({
-        Title = "Combat",
+        Title = "战斗",
         Icon = "sword",
         Desc = "Combat Section"
     }),
     RaidTab = Window:Tab({
-        Title = "Raid",
+        Title = "袭击",
         Icon = "door-open",
         Desc = "Raid Section"
     }),
     EspTab = Window:Tab({
-        Title = "Esp",
+        Title = "透视",
         Icon = "eye",
         Desc = "Esp Section"
     }),
     TeleportTab = Window:Tab({
-        Title = "Teleport",
+        Title = "传送",
         Icon = "map-pinned",
         Desc = "Teleport Section"
     }),
     ShopTab = Window:Tab({
-        Title = "Shop",
+        Title = "商店",
         Icon = "shopping-cart",
         Desc = "Shop Section"
     }),
     FruitTab = Window:Tab({
-        Title = "Fruit",
+        Title = "果实",
         Icon = "apple",
         Desc = "Fruit Section"
     }),
     MiscDivider = Window:Divider(),
     MiscTab = Window:Tab({
-        Title = "Misc",
+        Title = "杂项",
         Icon = "layout-grid",
         Desc = "Misc Section"
     }),
     ServerTab = Window:Tab({
-        Title = "Server",
+        Title = "服务器",
         Icon = "server",
         Desc = "Server Section"
     })
